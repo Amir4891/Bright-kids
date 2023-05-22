@@ -1,0 +1,33 @@
+#d1{
+  background: darkslategray;
+  width: fill;
+  height: 50px;
+}
+#btn1{
+  height: 40px;
+  width:200px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 50px;
+  background: darkslategray
+}
+#btn2{
+  width: 320px;
+  height: 150px;
+  margin-top: 8px;
+  border-radius: 10px;
+  background-image: url("image/mixed1.jpeg");
+}
+body{
+  background-image: url("image/blue.jpeg");
+  background-repeat: none;
+  background-size: 700px;
+}
+#b1{
+  margin-top: 4px;
+  color: beige;
+}
+*{
+  margin: 0;
+  padding:0;
+}

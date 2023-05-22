@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width  initial-scale=1">
+    <link rel="stylesheet" href="Quiz.css"/>
+    <title>Quiz Page</title>
+  </head>
+  <body>
+    <h2 id="h2">what is the last letter in the alphabet?</h2>
+    <button onclick="myFanc()" id="btn">Z</button>
+    <button onclick="myFunc()" id="btn2">V</button>
+    <button onclick="myFunc()" id="btn22">R</button>
+    <button onclick="myFunc()" id="btn23">Y</button>
+    <a href="question3.html">
+      <button id="btn1"><h2 id="h3">➡</h2></button>
+    </a>
+     <script>
+   function myFunc() {
+    document.getElementById("btn").innerHTML ="Z  ✅";
+   document.getElementById("btn2").innerHTML="V  ❌";
+    document.getElementById("btn22").innerHTML="R  ❌";
+    document.getElementById("btn23").innerHTML="Y  ❌";
+      }
+    function myFanc() {
+     document.getElementById("btn").innerHTML ="Z  ✅";
+   document.getElementById("btn2").innerHTML="V  ❌";
+    document.getElementById("btn22").innerHTML="R  ❌";
+    document.getElementById("btn23").innerHTML="Y  ❌";
+      }
+ </script>
+  </body>
+</html>
