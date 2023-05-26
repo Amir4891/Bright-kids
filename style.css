@@ -1,27 +1,35 @@
 #d1{
   background: darkslategray;
-  width: fill;
+  max-width: 1000px;
+  min-width: 480px;
   height: 50px;
 }
 #btn1{
   height: 40px;
   width:200px;
+  font-size: 20px;
   border: none;
-  margin-top: 5px;
-  margin-left: 50px;
+  margin-top: 1px;
   background: darkslategray
 }
 #btn2{
-  width: 320px;
-  height: 150px;
-  margin-top: 8px;
-  border-radius: 10px;
+  width: 340px;
+  height: 170px;
+  font-size: 20px;
+  border: none;
+  margin: 70px;
+  border-radius: 20px;
   background-image: url("image/mixed1.jpeg");
 }
 body{
+  block-size: 50px;
   background-image: url("image/blue.jpeg");
-  background-repeat: none;
   background-size: 700px;
+  background-repeat: none;
+  background-size: cover;
+  background-origin: fixed;
+  background-position: center;
+  background-attachment:fixed;
 }
 #b1{
   margin-top: 4px;
