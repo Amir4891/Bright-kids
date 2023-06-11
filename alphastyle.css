@@ -1,41 +1,64 @@
 .b1{
   height: 50px;
   width: 280px;
-  margin: 2px;
+  margin: 10px;
   border-radius: 10px;
   background-image:url("image/mixed1.jpeg");
   font-size: 17px;
 }
+
 body{
-  background-image: url("image/blue.jpeg");
+  background-image: linear-gradient(to bottom,rgba(0, 29, 55, 0.75), rgba(0, 29, 55, 0.75)),url("image/kid2.jpg");
   background-repeat: none;
   background-size: cover;
   background-origin: fixed;
   background-position: center;
   background-attachment:fixed;
 }
+
 h2{
   text-align: center;
+  color:white;
 }
+
 img{
   height: 100px;
   width: 100px;
   padding-left: 90px;
 }
+
 h1{
   margin: 2px;
 }
+
 #A{
     height: 50px;
   width: 280px;
-  margin: 2px;
+  margin: 10px;
   border-radius: 10px;
   font-size: 17px;
   background-image:url("image/mixed1.jpeg");
 }
 
+#questions{
+  width: 290px;
+  height: 45px;
+  margin:11px;
+  font-size: 25px;
+  background:  #4CAF50;
+  border-radius: 20px;
+}
+#click{
+  background: darkslategray;
+  }
+
+*{
+  margin: 0px;
+  padding: 0px;
+  }
+
 div{
-    background-image:url("image/mixed1.jpeg");
+  background-image:url("image/mixed1.jpeg");
   margin: 10px;
   border-radius: 10px;
 }

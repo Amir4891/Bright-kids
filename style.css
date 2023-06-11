@@ -1,29 +1,24 @@
 #d1{
-  background: darkslategray;
-  max-width: 1000px;
-  min-width: 480px;
-  height: 50px;
-}
-#btn1{
-  height: 40px;
-  width:200px;
-  font-size: 20px;
-  border: none;
-  margin-top: 1px;
-  background: darkslategray
-}
+  color:white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  height: 3rem;
+  }
 #btn2{
-  width: 340px;
-  height: 170px;
-  font-size: 20px;
-  border: none;
-  margin: 70px;
+  width: 85%;
+  height: 10rem;
+  font-size: 0.85rem;
+  border-color: black;
+  position: center;
+  margin-top: 10%;
+  margin-left: 6%;
   border-radius: 20px;
   background-image: url("image/mixed1.jpeg");
 }
 body{
   block-size: 50px;
-  background-image: url("image/blue.jpeg");
+  background: darkslategray;
   background-size: 700px;
   background-repeat: none;
   background-size: cover;
@@ -31,10 +26,33 @@ body{
   background-position: center;
   background-attachment:fixed;
 }
-#b1{
-  margin-top: 4px;
-  color: beige;
+
+#kid{
+  color: aqua;
+  padding: 1px;
+ }
+#ads{
+  height: 2%;
+  width:60%;
+  margin: 20px;
 }
+
+main{
+  height: 40rem;
+  background-image: linear-gradient(to bottom,rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5)), url("image/kids.jpg");
+  background-position: center;
+  background-repeat: no repeat;
+  background-size: cover;
+ }
+
+  footer {
+    padding-top: 5em;
+    height: 10rem;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+  background: darkslategray;
+ }
 *{
   margin: 0;
   padding:0;
